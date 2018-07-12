@@ -472,8 +472,8 @@ typedef struct x509_purpose_st {
 	int flags;
 	int (*check_purpose)(const struct x509_purpose_st *,
 				const X509 *, int);
-	char *name;
-	char *sname;
+	const char *name;
+	const char *sname;
 	void *usr_data;
 } X509_PURPOSE;
 

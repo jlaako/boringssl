@@ -546,7 +546,7 @@ static const X509_VERIFY_PARAM_ID _empty_id =
 
 static const X509_VERIFY_PARAM default_table[] = {
     {
-     (char *)"default",         /* X509 default parameters */
+     "default",                 /* X509 default parameters */
      0,                         /* Check time */
      0,                         /* internal flags */
      0,                         /* flags */
@@ -556,7 +556,7 @@ static const X509_VERIFY_PARAM default_table[] = {
      NULL,                      /* policies */
      vpm_empty_id},
     {
-     (char *)"pkcs7",           /* S/MIME sign parameters */
+     "pkcs7",                   /* S/MIME sign parameters */
      0,                         /* Check time */
      0,                         /* internal flags */
      0,                         /* flags */
@@ -566,7 +566,7 @@ static const X509_VERIFY_PARAM default_table[] = {
      NULL,                      /* policies */
      vpm_empty_id},
     {
-     (char *)"smime_sign",      /* S/MIME sign parameters */
+     "smime_sign",              /* S/MIME sign parameters */
      0,                         /* Check time */
      0,                         /* internal flags */
      0,                         /* flags */
@@ -576,7 +576,7 @@ static const X509_VERIFY_PARAM default_table[] = {
      NULL,                      /* policies */
      vpm_empty_id},
     {
-     (char *)"ssl_client",      /* SSL/TLS client parameters */
+     "ssl_client",              /* SSL/TLS client parameters */
      0,                         /* Check time */
      0,                         /* internal flags */
      0,                         /* flags */
@@ -586,7 +586,7 @@ static const X509_VERIFY_PARAM default_table[] = {
      NULL,                      /* policies */
      vpm_empty_id},
     {
-     (char *)"ssl_server",      /* SSL/TLS server parameters */
+     "ssl_server",              /* SSL/TLS server parameters */
      0,                         /* Check time */
      0,                         /* internal flags */
      0,                         /* flags */

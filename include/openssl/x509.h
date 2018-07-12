@@ -275,7 +275,7 @@ struct x509_trust_st {
 	int trust;
 	int flags;
 	int (*check_trust)(struct x509_trust_st *, X509 *, int);
-	char *name;
+	const char *name;
 	int arg1;
 	void *arg2;
 } /* X509_TRUST */;
